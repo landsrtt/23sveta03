@@ -1,8 +1,13 @@
-export default interface StudentInterface {
+interface StudentInterface {
   id: number;
+  uuid?: string;
   firstName: string;
   lastName: string;
   middleName: string;
+  contacts?: string;
   groupId: number;
-  uuid?: string; // опционально, для клиентской стороны
-}
+  isDeleted?: boolean;
+  isNew?: boolean;
+};
+
+export default StudentInterface;

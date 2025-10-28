@@ -1,3 +1,3 @@
-export default function capitalize(str: string): string {
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-}
+const capitalize = (string: string): string => string.charAt(0).toUpperCase() + string.slice(1);
+
+export default capitalize;
