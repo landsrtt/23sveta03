@@ -1,5 +1,5 @@
 import type { NextRequest } from 'next/server';
-import { deleteStudentDb } from '@/db/studentdb';
+import { deleteStudentDb } from '@/db/studentDb';
 
 export async function DELETE(
   req: NextRequest,
