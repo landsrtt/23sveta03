@@ -6,18 +6,19 @@ $width: 400px;
 
   input {
     width: calc($width - 8px);
+    border-radius: 8px; // Добавляем скругление углов
+    padding: 10px 12px; // Рекомендуется добавить отступы
+    border: 1px solid #ccc; // Явно задаем границу для лучшего вида
   }
 
   input[type=submit] {
     width: $width;
+    border-radius: 8px; // Скругляем и кнопку
   }
-
 
   form {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
-
 }
-

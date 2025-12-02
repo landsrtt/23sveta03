@@ -1,4 +1,4 @@
-import { getStudentsDb, addStudentDb } from '@/db/studentDb';
+import { getStudentsDb, addStudentDb } from '@/db/studentdb';
 import { type NextApiRequest } from 'next/types';
 
 export async function GET(): Promise<Response> {
